@@ -44,6 +44,6 @@ while startgame == 1:
     elif player1 == "scissors" and computer == "scissors":
         print("Draw!")
 
-    input("Would you like to play again? (Yes:1 No:0)")
+    startgame = input("Would you like to play again? (Yes:1 No:0)")
 
 
