@@ -5,7 +5,7 @@ from random import randint
 startgame = 1
 
 while startgame == 1:
-    player1 = input("Pick rock, paper, or scissors!")
+    player1 = input("Pick rock, paper, or scissors! ")
 
     if player1 == "rock" or player1 == "paper" or player1 == "scissors":
         print("Player chose " + player1 + ".")
@@ -44,6 +44,6 @@ while startgame == 1:
     elif player1 == "scissors" and computer == "scissors":
         print("Draw!")
 
-    startgame = input("Would you like to play again? (Yes:1 No:0)")
+    startgame = int(input("Would you like to play again? (Yes:1 No:0): "))
 
-
+print("Game Over!")
